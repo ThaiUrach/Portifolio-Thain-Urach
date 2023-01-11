@@ -470,7 +470,7 @@ border-radius: .5rem;
   
 }
 .contato-left{
-  width:100px;
+  width:30%;
  background-image: linear-gradient(rgba(15,15,15, 0.6), rgba(22,22,22,0.9)), url(imagens/contato.jpg);
   background-size: cover;
   
@@ -478,7 +478,7 @@ border-radius: .5rem;
  
 }
 .contato-right{
-  width: 500px;
+  width: 70%;
   background-color: #eee;
   padding: 1rem 3rem 3rem 3rem;
   height: 75vh;
@@ -580,8 +580,9 @@ position: absolute;
 
 
 .orcamento-wrapper{
-  width: 400px;
-  height: 95%;
+  width: 700px;
+  min-width: 250px;
+  height: 85%;
   background-color:#ffffff99;
   border-radius: 10px ;
   box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.6);
@@ -639,7 +640,8 @@ flex-direction: column;
   padding: 0.1rem;
 }
 .btn-orcamento{
-  text-transform: uppercase;
+  text-transform:
+  ￼ uppercase;
   padding: 1rem;
   cursor: pointer;
   width: 100px;
