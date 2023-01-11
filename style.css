@@ -460,11 +460,13 @@ border-radius: .5rem;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  position: relative;
 
 }
 .contato{
-  width: 50%;
+  width: 90%;
   display: flex;
+  position: absolute;
   
   
 
@@ -479,7 +481,7 @@ border-radius: .5rem;
  
 }
 .contato-right{
-  width: 70%;
+  width: 50%;
   margin-right: 20px;
   background-color: #eee;
   padding: 1rem 2rem 2rem 2rem;
