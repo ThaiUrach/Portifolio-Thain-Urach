@@ -465,7 +465,8 @@ border-radius: .5rem;
 .contato{
   width: 50%;
   display: flex;
-  box-shadow: 0 2rem 3rem rgba(0,0,0,0.5);
+  
+  
 
   
 }
@@ -479,8 +480,9 @@ border-radius: .5rem;
 }
 .contato-right{
   width: 70%;
+  margin-right: 20px;
   background-color: #eee;
-  padding: 1rem 3rem 3rem 3rem;
+  padding: 1rem 2rem 2rem 2rem;
   height: 75vh;
   
 
