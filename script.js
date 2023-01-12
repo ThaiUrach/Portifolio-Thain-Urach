@@ -30,10 +30,19 @@ function atualizarPreco(){
     document.querySelector("#preco").innerHTML = `R$ ${preco.toFixed(2)}`
 }
 
-function enviarr() {
+function enviars() {
   var txt = document.querySelector(".anime")
    
     if (txt.value.length == 0 ) {
         window.alert("preencha os dados")
     }else{
         window.alert(`OBRIGADO pela preferência, Seu formulario foi enviado com sucesso. Em breve iremos responde-lo.`) } }
+
+        function enviarr() {
+            var txt1 = document.querySelector(".animees")
+             
+              if (txt1.value.length == 0 ) {
+                  window.alert("preencha os dados")
+              }else{
+                  window.alert(`OBRIGADO pela preferência, Seu formulario foi enviado com sucesso. Em breve iremos responde-lo.`) } }
+          
