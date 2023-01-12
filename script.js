@@ -29,3 +29,8 @@ function atualizarPreco(){
 
     document.querySelector("#preco").innerHTML = `R$ ${preco.toFixed(2)}`
 }
+
+function enviarr() {
+    document.getElementById("vai")
+    window.alert("Obrigado pela preferência, Seu formulario foi enviado com sucesso.    Em breve iremos responde-lo.");
+}

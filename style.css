@@ -619,7 +619,7 @@ flex-direction: column;
 }
 
 .sessao-orcamento form{
-  margin: 4rem;
+  margin: 3rem;
   display:flex;
   flex-wrap: wrap;
   row-gap: 1rem;
@@ -630,6 +630,8 @@ flex-direction: column;
  
 
 }
+
+
 .sessao-orcamento label{
   font-family: var(--font-secundary);
   font-size: 20px;
@@ -641,6 +643,15 @@ flex-direction: column;
 .sessao-orcamento input[type="number"]{
   font-family: var(--font-secundary);
   width: 3rem;
+  font-size: 2rem;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  
+}
+.sessao-orcamento input[type="text"]{
+  font-family: var(--font-secundary);
+  width: 50%;
   font-size: 2rem;
   outline: none;
   border-radius: 10px;

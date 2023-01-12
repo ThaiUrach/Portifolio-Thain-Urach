@@ -175,20 +175,23 @@
           <div class="contato-left"></div>
           <div class="contato-right">
             <h1>Contato</h1>
-            <form>
+            <form action="https://formsubmit.co/dev.thaina@gmail.com" method="POST">
+              <input type="hidden" name="_captcha" value="false">
               <div class="input-group">
-                <input type="text" class="field" id="nome">
+                <input type="text" class="field" id="nome" name="name" required>
                 <label for="nome" class="field-label">Nome</label>
               </div>
               <div class="input-group">
-                <input type="text" class="field" id="email">
+                <input type="text" class="field" id="email" name="email" required>
                 <label for="email" class="field-label">E-mail</label>
               </div>
               <div class="input-group">
-                <textarea class="field" id="mensagem"></textarea>
+                <textarea class="field" id="mensagem" name="mensagem" required></textarea>
                 <label for="mensagem" class="field-label">Mensagem</label>
               </div>
-              <button type="submit" class="btn btn-submit">Enviar</button>
+               <input type="hidden" name="_next"  value="http://127.0.0.1:5501" >
+               
+              <button type="submit" class="btn btn-submit" onclick="enviarr()">Enviar</button>
             </form>
           </div>
       </div>
@@ -199,11 +202,18 @@
         <div class="titulo">
           <h1>Faça um orçamento</h1>
         </div>
-        <form> 
-          <label for="qtde">Quantidade de Páginas <input type="number" min="1" name="qtde" id="qtde"></label>
-          
+        <form action="https://formsubmit.co/dev.thaina@gmail.com" method="POST" > 
 
-          <label for="js">Preciso de um script JS  <input type="checkbox"name="js" id="js"></label> <br>
+          <input type="hidden" name="_captcha" value="false">
+
+          <label for="nome"  >Digite seu Nome: <input type="text" id="name" 
+            name="name" required> </label>
+          
+         
+
+          <label for="qtde">Quantidade de Páginas: <input type="number" min="1" name="qtde" id="qtde"></label>
+        
+          <label for="js">Preciso de um script JS:  <input type="checkbox"name="js" id="js"></label> <br>
           
           <label> Layout </label>
           <div class="group-layout">
@@ -219,14 +229,13 @@
           <label for="prazo">Prazo</label>
           <input type="range" name="prazo" id="prazo" min="1" max="10" >
           <label id="preco">R$ 0,00</label>
-          <button class="btn btn-orcamento" type="submit">Enviar</button>
+          
+          <input type="hidden" name="_next"  value="http://127.0.0.1:5501" >
+
+          <button class="btn btn-orcamento" type="submit" id="vai" onclick="enviarr()">Enviar</button>
         </form>
       </div>
-
-    </section
-
     </section>
-    </div>
     <footer>
       <div class="footer-content">
         <p> Copyright&copy 2023, THAINÁ URACH -Todos os direitos reservados </p>
