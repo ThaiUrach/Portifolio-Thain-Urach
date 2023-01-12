@@ -32,5 +32,6 @@ function atualizarPreco(){
 
 function enviarr() {
     document.getElementById("vai")
-    window.alert("Obrigado pela preferência, Seu formulario foi enviado com sucesso.    Em breve iremos responde-lo.");
+    window.alert(`OBRIGADO pela preferência, Seu formulario foi enviado com sucesso.`
+    + ` Em breve iremos responde-lo.`);
 }
