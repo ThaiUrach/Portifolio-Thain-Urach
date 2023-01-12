@@ -23,7 +23,7 @@ function atualizarPreco(){
     let preco = qtde * 250;
 
     if(temJs) preco *= 1.1
-    if (incluiLayout)preco += 700
+    if (incluiLayout)preco += 500
     let taxaUrgencia = 1 - prazo*0.1;
     preco *= 1 + taxaUrgencia
 
@@ -31,6 +31,9 @@ function atualizarPreco(){
 }
 
 function enviarr() {
-    document.getElementById("vai")
-    window.alert(`OBRIGADO pela preferência, Seu formulario foi enviado com sucesso. Em breve iremos responde-lo.`);
-}
+  var txt = document.querySelector(".anime")
+   
+    if (txt.value.length == 0 ) {
+        window.alert("preencha os dados")
+    }else{
+        window.alert(`OBRIGADO pela preferência, Seu formulario foi enviado com sucesso. Em breve iremos responde-lo.`) } }

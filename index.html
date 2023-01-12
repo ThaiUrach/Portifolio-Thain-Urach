@@ -178,18 +178,19 @@
             <form action="https://formsubmit.co/dev.thaina@gmail.com" method="POST">
               <input type="hidden" name="_captcha" value="false">
               <div class="input-group">
-                <input type="text" class="field" id="nome" name="name" required>
+
+                <input type="text" class="field anime" id="nome" name="name" required>
                 <label for="nome" class="field-label">Nome</label>
               </div>
               <div class="input-group">
-                <input type="text" class="field" id="email" name="email" required>
+                <input type="text" class="field anime" id="email" name="email" required>
                 <label for="email" class="field-label">E-mail</label>
               </div>
               <div class="input-group">
-                <textarea class="field" id="mensagem" name="mensagem" required></textarea>
+                <textarea class="field anime"  id="mensagem" name="mensagem"></textarea>
                 <label for="mensagem" class="field-label">Mensagem</label>
               </div>
-               <input type="hidden" name="_next"  value="https://thaiurach.github.io/Portifolio-Thain-Urach/" >
+               <input type="hidden" name="_next" class="next" value="https://thaiurach.github.io/Portifolio-Thain-Urach/" >
                
               <button type="submit" class="btn btn-submit" onclick="enviarr()">Enviar</button>
             </form>
@@ -202,16 +203,16 @@
         <div class="titulo">
           <h1>Faça um orçamento</h1>
         </div>
-        <form action="https://formsubmit.co/dev.thaina@gmail.com" method="POST" > 
+        <form action="https://formsubmit.co/dev.thaina@gmail.com" method="POST"> 
 
           <input type="hidden" name="_captcha" value="false">
 
-          <label for="nome"  >Digite seu Nome: <input type="text" id="name" 
-            name="name" required> </label>
+          <label for="nome"  >Digite seu Nome: <input type="text" id="name" class="anime"
+            name="name"  required> </label>
           
          
 
-          <label for="qtde">Quantidade de Páginas: <input type="number" min="1" name="qtde" id="qtde"></label>
+          <label for="qtde">Quantidade de Páginas: <input type="number" min="1" name="qtde" id="qtde" class="anime" required></label>
         
           <label for="js">Preciso de um script JS:  <input type="checkbox"name="js" id="js"></label> <br>
           
@@ -222,7 +223,7 @@
               <label for="layout-sim">Preciso de um layout</label>
             </div>
             <div>
-              <input type="radio" name="layout" id="layout-nao">
+              <input type="radio" name="layout" id="layout-nao" checked>
               <label for="layout-nao">Já tenho um layout</label>
             </div>
           </div>
