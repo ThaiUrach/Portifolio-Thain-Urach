@@ -285,50 +285,6 @@ header {
 }
 
 
-
-
-
-/*.sessao-header{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  
-}
-.sessao-header h1{
-  font-family: var(--font-primary);
-  font-size: 2rem;
-  color: #4b4b4b;
-  border-bottom: solid 3px #6a3093;
-  margin-bottom: 10px;
-}
-.conhecimento-header{
-   display: flex;
-   align-items: center;
-   color: #4b4b4b;
-}
-.conhecimento-header i{
-  font-size: 30px;
-}
-.conhecimento-header h3{
-  font-family: var(--font-secundary);
-  font-size: 20px;
-  padding-left: 1rem;
-}
-.conhecimento-text{
-  font-family: var();
-}
-.conhecimentos-img-wrapper{
-  grid-column: 7/10;
-  grid-row: 6/8;
-  width: 100%;
-}
-
-.conhecimentos-img-wrapper img{
-  object-fit:cover;
-  width: 100%;
-}*/
-
 .sessao-projetos{
  display: flex;
  flex-wrap: wrap;
@@ -342,13 +298,7 @@ header {
 
 
 }
-/*
-.projetos{
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 9%;
 
-} */
 .sessao-header2{
   text-align: center;
   font-family: var(--font-primary);
@@ -421,7 +371,7 @@ border-radius: .5rem;
   width: 80%;
   margin-bottom: 2rem;
 }
-.btn{
+.btn, .btn a{
  
   background-color:#6a3093;
   background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
